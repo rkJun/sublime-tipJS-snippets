@@ -5,6 +5,10 @@ Sublime Text 2 tipJS snippets
 
 ## Installation ##
 
+Sublime Text 실행후, Command Palette (CMD+shift+P) - Package Control : Instal Package - tipJS 검색 (tipJS Snippets)
+
+[wbond's][package_control] Package Control 이 설치되어 있어야 합니다.
+
 ### Without Package Control ###
 
 아직 [wbond's][package_control] Package Control 저장소는 지원하지 않습니다.
