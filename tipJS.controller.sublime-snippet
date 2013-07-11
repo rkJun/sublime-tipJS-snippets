@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[tipJS.controller({
+	name : '${1:appName.controllerName}',
+	beforeInvoke:function(params){
+		${2:// some statements here}
+	},
+	invoke:function(params){
+		${3:tipJS.debug(this.name+'.invoke Start');
+		// load Common Model()
+		var commonModel = this.loadCommonModel('CommonModel');
+		// load Common View
+		var commonView = this.loadCommonView('CommonView');
+		// load Application Model
+		var initModel = this.loadModel('initModel');
+		// load Application View
+		var initView = this.loadView('initView');
+		}
+	},
+	afterInvoke:function(params){
+		${4:// some statements here}
+	},
+	exceptionInvoke:function(exception, params){
+		${5:// some statements here}
+	}
+});
+$0]]></content>
+	<tabTrigger>tipJS.controller</tabTrigger>
+	<description>tipJS.controller()</description>
+	<scope>source.js</scope>
+</snippet>

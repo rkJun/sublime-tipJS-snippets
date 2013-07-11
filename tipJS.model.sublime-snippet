@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[tipJS.model({
+	name : '${1:appName.modelName}',
+	${2:yourOwnProperties: 'properties',}
+	${3:yourOwnsomeMethods}: function(){
+		${4:var commonModel = this.loadCommonModel("commonModel");
+		var someModel2 = this.loadModel("someModel2");
+		// ... some process ...
+		return this.name;}
+	}
+});
+$0]]></content>
+	<tabTrigger>tipJS.model</tabTrigger>
+	<description>tipJS.model()</description>
+	<scope>source.js</scope>
+</snippet> 

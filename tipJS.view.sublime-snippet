@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[tipJS.view({
+	name : '${1:appName.modelName}',
+	${2:yourOwnProperties: 'properties',}
+	${3:yourOwnsomeMethods}: function(){
+		// ... some process ...
+	}
+});
+$0]]></content>
+	<tabTrigger>tipJS.view</tabTrigger>
+	<description>tipJS.view()</description>
+	<scope>source.js</scope>
+</snippet> 

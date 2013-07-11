@@ -10,8 +10,11 @@
 		'${3:model.js}'
 	],
 	views:{
-		${4:view.js'}
- 	}
+		'${4:view.js'}
+	}
+	onLoad:function(params){
+		${5:// tipJS.action.appName.yourOnLoadController();}
+	}
  });
 $0]]></content>
 	<tabTrigger>tipJS.define</tabTrigger>
