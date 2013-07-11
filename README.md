@@ -11,9 +11,7 @@ Sublime Text 실행후, Command Palette (CMD+shift+P) - Package Control : Instal
 
 ### Without Package Control ###
 
-아직 [wbond's][package_control] Package Control 저장소는 지원하지 않습니다.
-
-[Sublime 3][sublime3] 에서는 아직 테스트하지 않았습니다.
+Package Control 에서 설치하지 않는 경우, 아래의 방법으로 수동 설치할 수 있습니다.
 
 #### Mac OS ####
 
