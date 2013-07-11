@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[tipJS.config({
+	commonLib:[
+		'${1:/pathTo/common/commonLib.js}'
+	],
+	commonModel:[
+		'${2:/pathTo/common/models/commonModel.js}'
+	],
+	commonView:[
+		'${3:/pathTo/common/views/commonView.js}'
+	],
+	applicationPath:{
+		${4:appName : '/pathTo/app'}
+ 	}
+ });
+$0]]></content>
+	<tabTrigger>tipJS.config</tabTrigger>
+	<description>tipJS.config()</description>
+	<scope>source.js</scope>
+</snippet>
