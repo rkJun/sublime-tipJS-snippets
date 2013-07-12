@@ -23,7 +23,7 @@ Package Control 에서 설치하지 않는 경우, 아래의 방법으로 수동
     
 #### Inside _Packages_ ####
     
-    git clone https://github.com/rkjun/sublime-tipjs-snippets.git "tipJS"
+    git clone https://github.com/rkjun/sublime-tipJS-snippets.git "tipJS"
 
 
 [tipjs]: http://tipjs.com/
